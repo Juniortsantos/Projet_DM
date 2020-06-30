@@ -1,0 +1,117 @@
+
+*{
+	margin: 0;
+	padding: 0;	
+}
+#dvslider{
+	width: 900px;height: 390px;border: 1px solid #000; margin: auto; margin-top: 35px;
+}		
+
+img{
+	width: 60px;height: 60px;	
+}
+header{
+	top: 200px;height: 50px;padding-top: 20px;background:#191970;text-align: center;
+}
+nav {
+	text-align: center;position: fixed;left: 0px;top: 0px;width: 100%;height: 40px;
+	
+}
+p {
+	font-family: times new roman;font-size: 17px;color: #ffffff;
+}
+
+ul{
+	list-style-type: name;background-color: #191970;
+}
+ul li{
+	display: inline-block;margin-left: 60px;				
+}
+ul li a{
+	display: block;color: white;text-align: center;padding: 10px;text-decoration: none;	
+}
+ul li a:hover{
+	background-color:#ffffff;color: #191970;transition: 1s; 
+}
+
+.rec{
+	width: 300px;height: 280px;margin: 25px;
+}
+h1{
+	margin-top: 50px;text-align: center;color: #191970;font-size: 70px;
+}
+h2 {
+	margin-top: 120px;text-align: center;font-family: absolute;color: #191970;font-size: 65px;
+}
+.subtitulo{
+	font-size: 20px;margin-top: 0px;margin-left: 190px;
+}
+
+.flex-container {
+  display: flex;justify-content: center;padding: 50px;margin: auto;
+}
+
+.flex-container > div figure { 
+
+  width: 190px; margin: 35px; text-align: center;line-height: 75px;font-size: 30px;
+}
+embed{
+	height: 400px;width: 100%;
+}
+.cabecalho {
+	display: flex;justify-content:flex-end; margin-top: -20px;
+}
+
+footer{
+	background: #191970;width: 100%;justify-content: space-around;align-items: flex-end
+}
+.rodape{
+	display: flex;justify-content: flex-start;
+}
+.redes{
+	display: flex;flex-wrap: wrap;justify-content: end;margin-top: 20px;		
+}
+.infor_cont {
+	margin-left: 80px;	
+}
+#numero{
+	font-size: 15px;
+}
+.descricao{
+	color: black;text-align: center;font-weight: 900;
+}
+h3{
+	text-align: center;margin-top: 90px;font-size: 40px;color: #191970;
+}
+.content{
+	display: flex; justify-content: center;	
+}
+.contato{
+	width: 100%; max-width: 500px;	
+}
+.form{
+	display: flex; flex-direction: column;
+}
+.field{
+	padding: 10px; margin-bottom: 15px; border: 1px solid #DDD; border-radius: 5px;
+}
+textarea{
+	height: 150px;
+}
+h4{
+	text-align: center;	margin-top: 20px;font-size: 25px;color: #191970;
+}
+.apresenta{
+	color: black;text-align: center;margin-top: 10px; 
+}
+.historia{
+	border: 1px solid #000; width: 900px; height: 390px; margin: auto; margin-top: 35px;
+}
+.missao{
+	border: 1px solid #000; width: 900px; height: 190px; margin: auto; margin-top: 35px;
+}
+
+.valores{
+	border: 1px solid #000;  width: 900px; height: 190px; margin: auto; margin-top: 35px;
+}
+
